@@ -4,6 +4,7 @@
 header {
     background: #ffffff;
     border-color: #cccccc;
+    height: 90px;
     font-family: Georgia, "Times New Roman", Times, Serif;
     overflow: auto;
 }
@@ -16,7 +17,7 @@ h2 {
 .main-head-list {
     margin: 0;
     overflow: auto;
-    margin-left: 50%;
+    margin-left: 67%;
     color: #777777;
     font-size: larger;
 }
@@ -37,14 +38,14 @@ h2 {
     float: left;
     font-family: Arial, "Helvetica Neue", "Helvetica", sans-serif;
     margin-left: 25%;
-    overflow: hidden;
+
 }
 
 .main-name {
     margin-left: 5%;
 }
 
-li+li {
+.main-head-list li+li {
     border-left: 1px solid #cccccc;
 
 }
@@ -57,19 +58,21 @@ a.color-list {
 
 /*************************************************ABOUT ME*************************************************************
 ***********************************************************************************************************************/
-.content-area {
-    border: 2px solid #dddddd;
-    padding-top: 1.5%;
+
+
+.about-me-section {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .about-me-content {
     background: #ffffff;
+    padding-left: 1%;
+    padding-right: 1%;
     margin-left: 25%;
-    width: 960px;
+    width: 650px;
     border: 2px solid #dddddd;
-    height: auto;
     overflow: auto;
-
 }
 
 p {
@@ -77,22 +80,70 @@ p {
 }
 
 .side-bar {
+    position: relative;
+    margin-right: 20%;
+    clear: both;
     float: right;
-    margin-right: 25%;
     width: 270px;
     background: #ffffff;
     color: #4aaaa5;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+
+}
+
+.side-bar-img {
+    list-style-type: none;
+    display: inline;
+    overflow: auto;
+    text-align: center;
+
+}
+
+.side-bar-list {
+    margin-right: 15%;
+}
+
+.side-bar-divider {
+    border-bottom: 1px solid #cccccc;
+    margin-left: 16%;
+    margin-right: 16%;
+    padding-top: 5%;
+    margin-bottom: 4%;
+
+}
+
+.about-bar-divider {
+    border-bottom: 2px solid #cccccc;
+
+}
+
+.connect-icon-size {
+    width: 60px;
+    height: 60px;
+}
+
+.connect-icon-size-stack {
+    width: 54.5px;
+    height: 54.5px;
+    padding-bottom: 1%;
+
+}
+
+.about-para {
+
 
 }
 
 .about-two-para {
-    float: left;
+
 }
 
 .profile-pic {
     float: left;
+    padding-right: 2%;
     width: 15%;
     height: 15%;
 
@@ -108,6 +159,14 @@ html {
 ***********************************************************************************************************************/
 footer {
     clear: both;
+    position: relative;
     background: #666666;
     border-top: 10px solid #4aaaa5;
+    height: 65px;
+}
+
+.foot-p {
+    color: #cccccc;
+    font-size: smaller;
+    text-align: center;
 }
