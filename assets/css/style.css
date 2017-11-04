@@ -1,3 +1,6 @@
+
+/*************************************************HEADERS***************************************************************
+***********************************************************************************************************************/
 header {
     background: #ffffff;
     border-color: #cccccc;
@@ -5,17 +8,9 @@ header {
     overflow: auto;
 }
 
+h2 {
+    color: #4aaaa5;
 
-.name {
-    width: 12%;
-    height: inherit;
-    background: #4aaaa5;
-    z-index: 1;
-    color: #ffffff;
-    float: left;
-    font-family: Arial, "Helvetica Neue", "Helvetica", sans-serif;
-    margin-left: 25%;
-    overflow: hidden;
 }
 
 .main-head-list {
@@ -33,6 +28,18 @@ header {
     color: #cccccc;
 }
 
+.name {
+    width: 12%;
+    height: inherit;
+    background: #4aaaa5;
+    z-index: 1;
+    color: #ffffff;
+    float: left;
+    font-family: Arial, "Helvetica Neue", "Helvetica", sans-serif;
+    margin-left: 25%;
+    overflow: hidden;
+}
+
 .main-name {
     margin-left: 5%;
 }
@@ -47,16 +54,15 @@ a.color-list {
     text-decoration: none;
 }
 
-h2 {
 
-}
-
+/*************************************************ABOUT ME*************************************************************
+***********************************************************************************************************************/
 .content-area {
     border: 2px solid #dddddd;
-    border-bottom: 10px solid #4aaaa5;
+    padding-top: 1.5%;
 }
 
-.about-me-header {
+.about-me-content {
     background: #ffffff;
     margin-left: 25%;
     width: 960px;
@@ -66,12 +72,19 @@ h2 {
 
 }
 
+p {
+    font-size: larger;
+}
 
 .side-bar {
+    float: right;
+    margin-right: 25%;
     width: 270px;
     background: #ffffff;
     color: #4aaaa5;
-    float: right;
+    font-size: 24px;
+    font-weight: bold;
+
 }
 
 .about-two-para {
@@ -85,13 +98,16 @@ h2 {
 
 }
 
-body {
+html {
     background: whitesmoke;
     color: #777777;
-
 }
 
+
+/*************************************************FOOTER***************************************************************
+***********************************************************************************************************************/
 footer {
-    background: #666666;
     clear: both;
+    background: #666666;
+    border-top: 10px solid #4aaaa5;
 }
