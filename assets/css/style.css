@@ -50,12 +50,30 @@ h2 {
 
 }
 
+
+/*************************************************LINKS*****************************************************************
+***********************************************************************************************************************/
+
 a.color-list {
     color: #cccccc;
     text-decoration: none;
 }
 
+a:link,
+a:visited {
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #4aaaa5;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+    border-bottom: 1px solid transparent;
+}
 
+a:hover,
+a:active {
+    color: #4aaaa5;
+    border-bottom: 1px solid #4aaaa5;
+}
 /*************************************************ABOUT ME*************************************************************
 ***********************************************************************************************************************/
 
@@ -132,15 +150,6 @@ p {
 
 }
 
-.about-para {
-
-
-}
-
-.about-two-para {
-
-}
-
 .profile-pic {
     float: left;
     padding-right: 2%;
@@ -158,8 +167,9 @@ html {
 /*************************************************FOOTER***************************************************************
 ***********************************************************************************************************************/
 footer {
-    clear: both;
-    position: relative;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background: #666666;
     border-top: 10px solid #4aaaa5;
     height: 65px;
